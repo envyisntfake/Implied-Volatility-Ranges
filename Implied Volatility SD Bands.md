@@ -16,6 +16,12 @@ Round final levels to the instrument’s tick (ES/NQ = 0.25).
 
 These are finish-the-day probabilities, not guarantees, and real markets have fat tails.
 
+## TradingView Indicator
+
+https://www.tradingview.com/script/h8znpwcM-Implied-Volatility-Bands/
+
+I created this indicator to calculate the mathematics involved in the IV SD Bands to save you & I some time, use it if you'd like. :) 
+
 ## Day Types Overview
 | # | Name | Quick Definition | Primary Edge |
 |---|------|------------------|--------------|
