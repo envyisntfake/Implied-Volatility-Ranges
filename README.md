@@ -10,9 +10,9 @@ Round final levels to the instrument’s tick (ES/NQ = 0.25).
 
 # What each band “means” (under a normal-returns model):
 
-±1σ band: ~68% of days are expected to finish inside this range.
-±2σ band: ~95% of days should finish inside.
-±3σ band: ~99.7% containment.
+ - ±1σ band: ~68% of days are expected to finish inside this range.
+ - ±2σ band: ~95% of days should finish inside.
+ - ±3σ band: ~99.7% containment.
 
 These are finish-the-day probabilities, not guarantees, and real markets have fat tails.
 
