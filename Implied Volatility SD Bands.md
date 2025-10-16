@@ -30,7 +30,6 @@ I created this indicator to calculate the mathematics involved in the IV SD Band
 | 3 | 1σ Pullback in Trend | Impulse beyond ±1σ, orderly pullback to ±1σ, continuation | Buy/sell the dip at ±1σ |
 | 4 | 2σ Exhaustion Fade | First touch of ±2σ with momentum/volume divergence | Reversion to ±1σ then VWAP |
 | 5 | Gap Logic | Open outside band; either gap-and-go or gap-fill toward C | Follow/fade based on early confirmation |
-| 6 | Opening Range (OR) Filter | Break/hold of OR aligned with ±1σ location | Filter for higher-probability breakouts |
 
 ---
 
@@ -119,23 +118,6 @@ I created this indicator to calculate the mathematics involved in the IV SD Band
 ### Invalidation
 - Behavior flips against plan (e.g., rebreak/hold outside when attempting fill).
 - Outlier opening auction imbalance.
-
----
-
-## 6. Opening Range (OR) Filter with ±1σ
-### Identification
-- Define OR (first 15–30m).
-- OR high above +1σ or OR low below −1σ increases continuation odds.
-- Retest of OR boundary aligns with ±1σ.
-
-### Trade Plan
-- Enter only if OR break aligns with band and holds on retest.
-- Stop: beyond OR boundary or 0.35σ (whichever is tighter).
-- Targets: ±2σ then trail; or measured move of OR range.
-
-### Invalidation
-- Failure to hold OR on close.
-- Rotation back through VWAP with momentum against position.
 
 ---
 
